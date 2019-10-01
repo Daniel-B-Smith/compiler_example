@@ -1,0 +1,11 @@
+[package]
+name = "compiler_example"
+version = "0.1.0"
+authors = ["daniel.smith <daniel.smith@datadoghq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rdkafka = { git = "https://github.com/fede1024/rust-rdkafka", branch = "master" }
+tokio = "0.1.22"
